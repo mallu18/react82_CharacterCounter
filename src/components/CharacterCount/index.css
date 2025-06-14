@@ -1,0 +1,68 @@
+.app-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: Roboto;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inputs-display {
+  width: 60%;
+}
+
+.sub-heading {
+  color: #ffc533;
+  margin-bottom: 20px;
+}
+
+.input-form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background-color: #ffc533;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.inputs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.input-item {
+  background-color: #334155;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.input-text {
+  margin: 0;
+}
+
+.no-inputs-image {
+  width: 100%;
+  max-width: 300px;
+}
